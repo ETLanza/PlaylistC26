@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		3C621E982293099C00D08847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621E972293099C00D08847 /* AppDelegate.m */; };
-		3C621E9B2293099C00D08847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621E9A2293099C00D08847 /* ViewController.m */; };
 		3C621E9E2293099C00D08847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C621E9C2293099C00D08847 /* Main.storyboard */; };
 		3C621EA02293099E00D08847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C621E9F2293099E00D08847 /* Assets.xcassets */; };
 		3C621EA32293099E00D08847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C621EA12293099E00D08847 /* LaunchScreen.storyboard */; };
 		3C621EA62293099E00D08847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621EA52293099E00D08847 /* main.m */; };
+		3C621EB222930BC900D08847 /* DVMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621EB122930BC900D08847 /* DVMSong.m */; };
+		3C621EB522930C2800D08847 /* DVMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621EB422930C2800D08847 /* DVMPlaylist.m */; };
+		3C621EB8229316B200D08847 /* DVMPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621EB7229316B200D08847 /* DVMPlaylistController.m */; };
+		3C621EBD2293227600D08847 /* DVMPlaylistListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621EBC2293227500D08847 /* DVMPlaylistListTableViewController.m */; };
+		3C621EC122933A9900D08847 /* DVMDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C621EC022933A9900D08847 /* DVMDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C621E932293099C00D08847 /* PlaylistC26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistC26.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C621E962293099C00D08847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C621E972293099C00D08847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C621E992293099C00D08847 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C621E9A2293099C00D08847 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C621E9D2293099C00D08847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C621E9F2293099E00D08847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C621EA22293099E00D08847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C621EA42293099E00D08847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C621EA52293099E00D08847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C621EB022930BC900D08847 /* DVMSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMSong.h; sourceTree = "<group>"; };
+		3C621EB122930BC900D08847 /* DVMSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMSong.m; sourceTree = "<group>"; };
+		3C621EB322930C2800D08847 /* DVMPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMPlaylist.h; sourceTree = "<group>"; };
+		3C621EB422930C2800D08847 /* DVMPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMPlaylist.m; sourceTree = "<group>"; };
+		3C621EB6229316B200D08847 /* DVMPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMPlaylistController.h; sourceTree = "<group>"; };
+		3C621EB7229316B200D08847 /* DVMPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMPlaylistController.m; sourceTree = "<group>"; };
+		3C621EBB2293227500D08847 /* DVMPlaylistListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMPlaylistListTableViewController.h; sourceTree = "<group>"; };
+		3C621EBC2293227500D08847 /* DVMPlaylistListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMPlaylistListTableViewController.m; sourceTree = "<group>"; };
+		3C621EBF22933A9900D08847 /* DVMDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMDetailTableViewController.h; sourceTree = "<group>"; };
+		3C621EC022933A9900D08847 /* DVMDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +70,65 @@
 		3C621E952293099C00D08847 /* PlaylistC26 */ = {
 			isa = PBXGroup;
 			children = (
+				3C621E9C2293099C00D08847 /* Main.storyboard */,
+				3C621EB9229316B700D08847 /* Controllers */,
+				3C621EAF22930B1300D08847 /* Models */,
+				3C621EAC22930A9500D08847 /* Resources */,
+			);
+			path = PlaylistC26;
+			sourceTree = "<group>";
+		};
+		3C621EAC22930A9500D08847 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3C621E962293099C00D08847 /* AppDelegate.h */,
 				3C621E972293099C00D08847 /* AppDelegate.m */,
-				3C621E992293099C00D08847 /* ViewController.h */,
-				3C621E9A2293099C00D08847 /* ViewController.m */,
-				3C621E9C2293099C00D08847 /* Main.storyboard */,
 				3C621E9F2293099E00D08847 /* Assets.xcassets */,
 				3C621EA12293099E00D08847 /* LaunchScreen.storyboard */,
 				3C621EA42293099E00D08847 /* Info.plist */,
 				3C621EA52293099E00D08847 /* main.m */,
 			);
-			path = PlaylistC26;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C621EAF22930B1300D08847 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C621EB322930C2800D08847 /* DVMPlaylist.h */,
+				3C621EB422930C2800D08847 /* DVMPlaylist.m */,
+				3C621EB022930BC900D08847 /* DVMSong.h */,
+				3C621EB122930BC900D08847 /* DVMSong.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C621EB9229316B700D08847 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C621EBA2293223100D08847 /* Model Controllers */,
+				3C621EBE2293227900D08847 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C621EBA2293223100D08847 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C621EB6229316B200D08847 /* DVMPlaylistController.h */,
+				3C621EB7229316B200D08847 /* DVMPlaylistController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		3C621EBE2293227900D08847 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C621EBB2293227500D08847 /* DVMPlaylistListTableViewController.h */,
+				3C621EBC2293227500D08847 /* DVMPlaylistListTableViewController.m */,
+				3C621EBF22933A9900D08847 /* DVMDetailTableViewController.h */,
+				3C621EC022933A9900D08847 /* DVMDetailTableViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +157,7 @@
 		3C621E8B2293099C00D08847 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DVM;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = ETLanza;
 				TargetAttributes = {
@@ -141,8 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C621E9B2293099C00D08847 /* ViewController.m in Sources */,
+				3C621EB222930BC900D08847 /* DVMSong.m in Sources */,
+				3C621EBD2293227600D08847 /* DVMPlaylistListTableViewController.m in Sources */,
+				3C621EB522930C2800D08847 /* DVMPlaylist.m in Sources */,
+				3C621EB8229316B200D08847 /* DVMPlaylistController.m in Sources */,
 				3C621EA62293099E00D08847 /* main.m in Sources */,
+				3C621EC122933A9900D08847 /* DVMDetailTableViewController.m in Sources */,
 				3C621E982293099C00D08847 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistC26/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistC26/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistC26/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistC26/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
